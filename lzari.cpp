@@ -266,7 +266,7 @@ void LZARI::UpdateModel(int sym)
 void LZARI::Output(int bit)  /* Output 1 bit, followed by its complements */
 {
     PutBit(bit);
-    for (; shifts > 0; shifts--) PutBit(~bit);//!
+    for (; shifts > 0; shifts--) PutBit(!bit); // Shut up VS, it IS logical or!
 }
 
 void LZARI::EncodeChar(int ch)
