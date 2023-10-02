@@ -7,5 +7,5 @@ The original `lzari.c` compiles with little required alterations in VS2022 but w
 ## Credit
 * Haruhiko Okumura (晴彦 奥村), author of LZARI/lzari.c
 * Que Rongwen (阙荣文) for his C++ implementation shown here: https://com.8s8s.com/it/it26843.htm
-* @1ucasvb for his immeasurable assistance and shared interest in how this routine was used in SimTunes
+* [lucasvb](https://github.com/1ucasvb) for his immeasurable assistance and shared interest in how this routine was used in SimTunes
 * Hexed.it and QuickBMS authors for sending me down this rabbithole of ancient digital East Asian engineering in the first place
